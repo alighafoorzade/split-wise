@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "alice",
+      "name": "Alice Morgan",
+      "initials": "AM",
+      "color": "#7c5cff"
+    },
+    { "id": "bob", "name": "Bob Chen", "initials": "BC", "color": "#f59e0b" },
+    {
+      "id": "charlie",
+      "name": "Charlie Davis",
+      "initials": "CD",
+      "color": "#15b79a"
+    },
+    { "id": "david", "name": "David Kim", "initials": "DK", "color": "#ef6a8a" }
+  ],
+  "expenses": [
+    {
+      "id": "e1",
+      "paidBy": "alice",
+      "expenseFor": "bob",
+      "amount": 120,
+      "description": "Weekend cabin booking",
+      "date": "2026-09-25T10:30:00.000Z"
+    },
+    {
+      "id": "e2",
+      "paidBy": "charlie",
+      "expenseFor": "alice",
+      "amount": 50,
+      "description": "Dinner at Noma",
+      "date": "2026-09-27T18:15:00.000Z"
+    },
+    {
+      "id": "e3",
+      "paidBy": "david",
+      "expenseFor": "bob",
+      "amount": 30,
+      "description": "Shared taxi",
+      "date": "2026-09-29T08:45:00.000Z"
+    },
+    {
+      "id": "e4",
+      "paidBy": "bob",
+      "expenseFor": "alice",
+      "amount": 22.5,
+      "description": "Coffee and pastries",
+      "date": "2026-09-29T11:20:00.000Z"
+    }
+  ]
+}
